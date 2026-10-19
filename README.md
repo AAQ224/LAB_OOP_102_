@@ -63,17 +63,12 @@ Use a single loop to:
 ## Expected Output
 
 CONSOLE
-
-Employee: Ahmed ID: 101 Salary: 8000 SAR  Employee: Sara ID: 102 Salary: 4000 SAR  Employee: Khalid ID: 103 Salary: 12000 SAR  ------------------------- Total Salaries: 24000 SAR
-
-## OOP Concepts Covered
-
-| Concept       | Implementation                                                                        |
-| ------------- | ------------------------------------------------------------------------------------- |
-| Encapsulation | `__employee_id` is private and accessed through a getter method                       |
-| Inheritance   | `FullTimeEmployee` and `PartTimeEmployee` inherit from `Employee`                     |
-| Abstraction   | `Employee` defines an abstract `calculate_salary()` method                            |
-| Polymorphism  | The same `calculate_salary()` method works differently depending on the employee type |
+```
+Employee: Ahmed ID: 101 Salary: 8000 SAR
+Employee: Sara ID: 102 Salary: 4000 SAR
+Employee: Khalid ID: 103 Salary: 12000 SAR
+Total Salaries: 24000 SAR
+```
 
 ## Rules
 
