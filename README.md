@@ -1,4 +1,4 @@
-# Task: Employee Salary System
+# Employee Salary System
 
 ## Scenario
 
